@@ -1,0 +1,26 @@
+
+        h1{
+            font-style: normal;
+            text-decoration-color: black;
+            text-decoration: underline;
+            background-color: bisque;
+            display: inline-block;
+        }
+        p{
+            display: block;
+            text-indent: 1em;
+        }
+        h3{
+            font-weight: bold;
+        }
+        h4{
+            font-weight: bold;
+        }
+        img{
+            display: block;
+            margin-top: auto;
+            margin-right: auto;
+        }
+        
+        
+    
