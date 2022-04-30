@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  body {
+      
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content:left;
+    background: whitesmoke;
+    font-family: sans-serif;
+  }
+  button:hover {
+    cursor: pointer;
+    background-color:grey;
+  }
+  ul {
+    list-style-type: none; /* get rid of bullet points on side of list items */
+  }
+  /* common style ends */
+  /* container */
+  .container {
+    min-width: 700px;
+    display: inline;
+    flex-direction:column;
+    align-items: left;
+    padding: 20px;
+  }
+  h1 {
+    color: blue;
+    font-size: 3rem;
+  }
+  /* todo-form */
+  .todo-form {
+    border: #0000ff;
+    display: block;
+    margin: 30px 0px;
+  }
+  .todo-input {
+    border-color: #0000ff;
+    width: 250px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    
+  }
+  .add-button {
+      
+    background:transparent;
+    color:black;
+    border:black;
+    outline: none;
+    border-radius: 5px;
+    padding: 7px;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  .
+  .delete-button {
+    float: right;
+    color: black;
+    background-color: whitesmoke;
+    border: black;
+    outline: none;
+    border-radius: 5px;
+    padding: 7px;
+    margin-left: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+  /* todo-form style ends */
+  /* todo-items */
+  .todo-items {
+    min-width: 350px;
+  }
+  /* each li with class="item" */
+  .item {
+    background-color: #fff;
+    padding: 10px;
+    font-size: 1.1rem;
+  }
+  .item:first-child {
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+  }
+  .item:last-child {
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+  }
+  /* item style end */
+  .checkbox {
+    margin-right: 10px;
+  }
+  
+  /* applied when the todo item is checked */
+  .checked { 
+    text-decoration: line-through;
+  }
