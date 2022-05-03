@@ -1,0 +1,19 @@
+body{
+    margin:20px;
+    padding:20;
+    border: 2px;
+}
+
+#form{
+    border-style: inset;
+    margin-right: 700px;
+    background-color: none;
+}
+h1{
+    
+    color: none;
+    background-color:white;
+    border-style: inset;
+    margin-right: 700px;
+
+}
