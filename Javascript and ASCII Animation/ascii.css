@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+
+    
+}
+
+.main-page{
+    background-color: #CCCCFF;
+    font-size: 14pt;
+}
+h1{
+    text-align: center;
+    font-size: 32pt;
+}
+#container{
+    display: flex;
+    justify-content: center;
+}
+
+#text-area{
+    width: 90%;
+    height: 400px;
+    font-size: 12pt;
+    font-weight: bold;
+    font-family: monospace;
+
+}
+.fieldset-container{
+    display: flex;
+    justify-content: center;
+    
+}
+
+fieldset{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 10px;
+    border: 5px solid black;
+    width: 120px;
+}
+legend{
+    font-weight: bold;
+    text-align: left;
+}
+button{
+    width: 45%;
+}
+select{
+    width: 95%;
+}
+.validation{
+    display: grid;
+    grid-row: 1;
+    text-align: right;
+}
